@@ -19,12 +19,14 @@ merged_list = five_multiples + three_multiples
 #print(set(merged_list))
 print(sum(set(merged_list)))
 
-#this ended up being a very round about way to solve this problem...I kept ending up with the wrong
+#this ended up being a very round about way to solve this problem...now that I've looked at some scripts online
+#I kept ending up with the wrong final
 #answer and had to manually compare my final sum to the correct answer online in order to trouble shoot
 #where I was going wrong
 #originally I had line 10 and 13 set to 1000 which was throwing off the final sum with extra digits.
 #then set them to 999 but realize it was still add an extra 1000 to the list because 995 is less than
 #999 and the function appended 1000 (the final multiple of 5) to the list as it was written originally.
+#this script DOES return the correct answer, so first project euler problem successfully solved!!! I feel accomplished. 
 
 
 
