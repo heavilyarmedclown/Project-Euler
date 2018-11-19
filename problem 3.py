@@ -14,6 +14,5 @@ while i <= number:
     else:
         i = i + 1
 
-# = (len(prime_factors) - 1)
 print(prime_factors[len(prime_factors) - 1])
 
